@@ -1,0 +1,89 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+body
+{
+  font-family: 'Courier New', Courier, monospace;
+  background-color:whitesmoke;
+}
+
+.header
+{
+  width: 100%;
+  text-align: center;
+}
+
+.container
+{
+  padding: 10px;
+}
+
+.game-message
+{
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  font-size: larger;
+}
+
+.game-options
+{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-options > h3
+{
+  margin: 0 10px;
+}
+
+.game-options > select
+{
+  padding: 5px;
+}
+
+.board
+{
+  margin: 50px auto;
+  width: 65vh;
+  height: 65vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.inner-box
+{
+  background-color:ghostwhite;
+}
+
+.inner-box:hover
+{
+  background-color: azure;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.inner-box > div
+{
+  cursor:default;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+}
+
