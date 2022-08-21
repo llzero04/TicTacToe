@@ -15,7 +15,9 @@ code {
 body
 {
   font-family: 'Courier New', Courier, monospace;
-  background-color:whitesmoke;
+  /*background-color:whitesmoke;*/
+  background-color: #232931;
+  color : #ffffff;
 }
 
 .header
@@ -58,6 +60,7 @@ body
 .board
 {
   margin: 50px auto;
+  /*border : 2px white solid;*/
   width: 65vh;
   height: 65vh;
   display: grid;
@@ -67,13 +70,17 @@ body
 
 .inner-box
 {
-  background-color:ghostwhite;
+  /*background-color:ghostwhite;*/
+  background-color: #393E46;
 }
 
 .inner-box:hover
 {
-  background-color: azure;
+  /*background-color: azure;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  */
+  background-color : #525252;
+  box-shadow: #000 0px 5px 15px;
 }
 
 .inner-box > div
@@ -87,3 +94,9 @@ body
   font-size: 5em;
 }
 
+@media only screen and (max-width: 800px) {
+  .board
+  {
+    width : 100%;
+  }  
+}
