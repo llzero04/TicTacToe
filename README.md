@@ -4,7 +4,7 @@ This app is created using React JS.<br/>
 
 To run this app first you need to have Node JS installed on your PC.<br/>
 
-After installing Node JS go to the proect directory and type "npm install" in command line. This will install all the neccessary dependencies. <br/>
+After installing Node JS go to the project directory and type "npm install" in command line. This will install all the neccessary dependencies. <br/>
 
 Next you need to type "npm run start" in command line to run the development server.<br/>
 
